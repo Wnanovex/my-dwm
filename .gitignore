@@ -1,0 +1,9 @@
+# Patch Fail
+*.rej
+*.orig
+
+# Object Files
+*.o
+
+#swap files
+*swp
