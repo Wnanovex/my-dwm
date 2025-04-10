@@ -65,13 +65,13 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function     format          argument */
-        { run_command,  "%s", "/home/$USER/src/scripts/slstatus/wifi.sh" },
+        { run_command,  "%s", "/home/$USER/my-dwm/scripts/slstatus/wifi.sh" },
         { cpu_perc,     "[^c#500073^ ^c#000000^CPU %s%%] ",      NULL},
         { ram_perc,     "[^c#003092^󰔶 ^c#000000^RAM %s%, ",         NULL},
         { ram_used,     "%sB] ",           NULL },
-        { run_command,  "%s", "/home/$USER/src/scripts/slstatus/brightness.sh" },
-        { run_command,  "%s", "/home/$USER/src/scripts/slstatus/battery.sh" },
-        { run_command,  "%s", "/home/$USER/src/scripts/slstatus/volume.sh" },
+        { run_command,  "%s", "/home/$USER/my-dwm/scripts/slstatus/brightness.sh" },
+        { run_command,  "%s", "/home/$USER/my-dwm/scripts/slstatus/battery.sh" },
+        { run_command,  "%s", "/home/$USER/my-dwm/scripts/slstatus/volume.sh" },
 	{ datetime,     "[ %s ]", "%a %d %b %Y %R" },
 	//{ wifi_essid,   "^b#EB5A3C^^c#000000^[^c#27445D^ ^c#000000^ %s ",  "wlp0s20f3"},
         //{ wifi_perc,    "%s%] ",       "wlp0s20f3"},
